@@ -1,0 +1,85 @@
+body {
+  background-color: rgba(220,220,220,.5);
+  color: rgb(10,10,10);
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  line-height: 1.35;
+  letter-spacing: 1.02px;
+}
+
+h1, h2 {
+  color: #E2703A;
+  font-weight: 800;
+  font-family: 'New Tegomin', serif;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+a {
+  font-size: 16px;
+  color: white;
+  font-weight: 600; 
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.container {
+  width: 700px;
+  margin:40px auto;
+}
+
+.subcontainer-white{
+  background-color: white;
+  padding: 30PX;
+  margin: 20px 0px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  text-align: center;
+}
+
+.img-circle{
+  width: 150px;
+  height: 150px; 
+  border-radius: 60%;
+}
+
+.btn-red {
+  background-color: #5EAAA8;
+  color: white;
+  padding: 10px ;
+  border-radius: 5px;
+}
+
+.btn-red:hover {
+  background-color: #6E70DE;
+}
+
+.list-inline {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+ display: inline;
+ padding: 10px;
+}
+
+.list-inline i{
+font-size: 35px;
+color: #C29CC6;
+}
+
+.list-inline i:hover {
+color: #6E70DE;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
+#introduction a {
+  margin-bottom: 40px;
+}
